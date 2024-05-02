@@ -32,31 +32,36 @@ The ultimate goal of this project is to enhance user convenience and security in
 - **client.py**:
     - **Libraries**: Uses `http.client`, `sys`, `requests`, `PyQt5` for GUI, `selenium` for browser automation, `cryptography` and `nacl` for encryption and signing.
     - **Key Components**:
- - GUI elements for user interaction.
- - Web automation for tasks like login.
- - Encryption for secure data handling.
-- **Interactions**:
- - The client interacts with the server via HTTP requests, sending and retrieving data.
- - The server responds with JSON-formatted data.
- - Secure communication is emphasized through the use of public key cryptography for data exchange and verification codes for user verification.
+       - GUI elements for user interaction.
+       - Web automation for tasks like login.
+       - Encryption for secure data handling.
+   - **Interactions**:
+       - The client interacts with the server via HTTP requests, sending and retrieving data.
+       - The server responds with JSON-formatted data.
+       - Secure communication is emphasized through the use of public key cryptography for data exchange and verification codes for user verification.
 
 - **server.py**:
-- **Libraries**: Utilizes `flask` for the web framework, `random` for generating codes, and `flask.jsonify` for sending JSON responses.
-- **Key Components**:
- - RESTful endpoints to handle requests like user registration, key retrieval, and code generation/validation.
- - Database interactions for storing and retrieving data such as emails, public keys, and verification codes.
+   - **Libraries**: Utilizes `flask` for the web framework, `random` for generating codes, and `flask.jsonify` for sending JSON responses.
+   - **Key Components**:
+       - Endpoints to handle requests like user registration, key retrieval, and code generation/validation.
+       - Database interactions for storing and retrieving data such as emails, public keys, and verification codes.
+
+- **requirments.txt**: Installs the necessary libraries for server.py
+- **credentials.json**: Connects to server
+- **Procfile.txt**: Defines framework for server
+
 
 ## Security Concerns and Mitigations
 
 - **Security Concerns**:
-- Data Interception: The transmission of sensitive information over the network could be intercepted.
-- User Authentication: The system must ensure that the user is who they claim to be to prevent unauthorized access.
-- Data Integrity: Ensuring the data has not been altered in transit.
+   - Data Interception: The transmission of sensitive information over the network could be intercepted.
+   - User Authentication: The system must ensure that the user is who they claim to be to prevent unauthorized access.
+   - Data Integrity: Ensuring the data has not been altered in transit.
 
 - **Mitigation Strategies**:
-- Encryption: Using libraries like `cryptography` and `nacl` to encrypt data helps protect sensitive information.
-- HTTPS: The use of HTTPS (noted in the SERVER_URL) helps secure communication between client and server.
-- Verification Codes: Employing verification codes sent to users’ emails to authenticate actions.
+   - Encryption: Using libraries like `cryptography` and `nacl` to encrypt data helps protect sensitive information.
+   - HTTPS: The use of HTTPS (noted in the SERVER_URL) helps secure communication between client and server.
+   - Verification Codes: Employing verification codes sent to users’ emails to authenticate actions.
 
 ## Additional Work to Reach Ultimate Goals
 
