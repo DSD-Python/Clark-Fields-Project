@@ -6,11 +6,11 @@ The ultimate goal of this project is to enhance user convenience and security in
 
 ## Target Audience
 
-- **Family Households**: Individuals who may need to share access to accounts for managing household utilities, streaming services, or emergency access to critical information.
-- **Professional Freelancers and Small Business Owners**: Those who need to give temporary access to accounts for financial, operational, or administrative tasks to colleagues or assistants without handing over full control.
-- **Educational Institutions and Students**: Schools and students who require a system to share access to educational tools and resources temporarily for projects or assignments.
-- **Elderly Users**: Older adults who might require assistance in managing their digital accounts and thus need a simple and secure method to grant access to caregivers or family members.
-- **Tech-savvy Users**: Individuals looking for a more secure way to manage multiple digital footprints and credentials efficiently, especially those who prioritize cybersecurity but also value convenience.
+- **Family Households**: Need to share access to accounts for managing household utilities, streaming services, or emergency access to critical information.
+- **Professional Freelancers and Small Business Owners**: Need to give temporary access to accounts for financial, operational, or administrative tasks to colleagues or assistants without handing over full control.
+- **Educational Institutions and Students**: Require a system to share access to educational tools and resources temporarily for projects or assignments.
+- **Elderly Users**: Might require assistance in managing their digital accounts and need a simple and secure method to grant access to caregivers or family members.
+- **Tech-savvy Users**: Looking for a more secure way to manage multiple digital footprints and credentials efficiently, especially those who prioritize cybersecurity but also value convenience.
 
 ## Current Functionality
 
@@ -65,5 +65,3 @@ The ultimate goal of this project is to enhance user convenience and security in
 - Security Audits: Conducting thorough security audits and tests to find and fix potential vulnerabilities.
 - Scalability Improvements: Optimizing both client and server code to handle a larger number of users smoothly.
 - Additional Features: Implementing features like multi-factor authentication and more sophisticated user management.
-
-
