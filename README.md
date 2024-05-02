@@ -30,8 +30,8 @@ The ultimate goal of this project is to enhance user convenience and security in
 ## Main Objects and Libraries
 
 - **client.py**:
-- **Libraries**: Uses `http.client`, `sys`, `requests`, `PyQt5` for GUI, `selenium` for browser automation, `cryptography` and `nacl` for encryption and signing.
-- **Key Components**:
+    - **Libraries**: Uses `http.client`, `sys`, `requests`, `PyQt5` for GUI, `selenium` for browser automation, `cryptography` and `nacl` for encryption and signing.
+    - **Key Components**:
  - GUI elements for user interaction.
  - Web automation for tasks like login.
  - Encryption for secure data handling.
