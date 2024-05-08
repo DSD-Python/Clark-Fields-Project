@@ -22,8 +22,8 @@ The ultimate goal of this project is to enhance user convenience and security in
 ## Steps to Run the Project
 
 1. Download `DSD_Project.zip` and unzip it.
-2. In terminal, run: chmod +x ~/Downloads/DSD_Project/script.sh
-3. Now run: ./script.sh
+2. In terminal, run: chmod +x ~/Downloads/DSD_Project_MacIntel/script.sh or chmod +x ~/Downloads/DSD_Project_MacM1/script.sh depending on which version you are using.
+3. Now run: ~/Downloads/DSD_Project_MacIntel/script.sh or ~/Downloads/DSD_Project_MacM1/script.sh depending on which version you are using.
 4. Register a user B.
 5. Register a user A then walk through all the steps.
 
